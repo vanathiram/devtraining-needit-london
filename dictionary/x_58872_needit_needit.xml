@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" type="collection">
+    <element audit="true" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" sizeclass="5" type="collection">
         <element label="New field 1" max_length="40" name="new_field_1" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Other" max_length="40" name="u_other" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" default="Choice 1" label="Other" mandatory="true" max_length="40" name="u_other" type="string">
             <choice>
                 <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
                 <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
